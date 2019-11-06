@@ -1,0 +1,9 @@
+plugins/
+upgrade/
+languages/
+themes/
+.DS_Store
+
+!themes/inhabitent
+themes/inhabitent/assets/
+themes/inhabitent/node_modules/
