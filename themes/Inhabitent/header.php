@@ -7,5 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body <?php body_class();?>>
+<div class="nav">
+<img class="header-logo" src="<?php echo get_stylesheet_directory_uri();?>\images\logos\inhabitent-logo-tent-white.svg">
 <?php wp_nav_menu(array('theme_location' => 'primary'));?>
+</div>
 <h1><?php bloginfo('name');?></h1>

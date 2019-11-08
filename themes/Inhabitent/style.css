@@ -54,6 +54,31 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 50px; }
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,9 +91,19 @@ table {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  padding: 30px; }
+
+.menu li {
   padding: 10px; }
+
+.front {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
 
 footer {
   display: grid;
@@ -90,7 +125,13 @@ footer {
   grid-row-end: 2;
   grid-column-start: 4;
   grid-column-end: 5;
-  margin: 50px; }
+  margin-top: 50px;
+  margin-right: 50px; }
+  .footer-logo img {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .copyright {
   grid-row-start: 2;
@@ -103,12 +144,21 @@ body {
   background: grey; }
 
 .front {
-  position: relative; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
-.front.background {
-  position: relative; }
+.background {
+  position: relative;
+  background-size: contain, cover; }
 
-.front.logo {
+.main-logo {
   position: absolute; }
 
 h2 {

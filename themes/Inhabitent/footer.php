@@ -1,8 +1,5 @@
 <?php wp_footer();?>
 
-
-
-</body>
 <footer>  
 <div class="contact">
 <p>Contact info</p>
@@ -17,10 +14,14 @@
 <p>Sunday: Closed</p>
 </div>
 <div class="footer-logo">
-    <p>LOGO</p>
+<img src="<?php echo get_stylesheet_directory_uri();?>\images\logos\inhabitent-logo-text.svg">
 </div>
 <div class="copyright">
 <p>Copyright 2016 Inhabitent</p>
 </div>
+
 </footer>
+
+</body>
+
 </html>

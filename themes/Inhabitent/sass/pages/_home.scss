@@ -3,14 +3,18 @@ body{
 }
 
 .front {
-    position: relative;
+display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.front.background {
+.background {
     position: relative;
+    background-size: contain, cover;
 }
-.front.logo {
+.main-logo {
     position: absolute;
+       
 }
 
 h2 {

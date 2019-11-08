@@ -1,9 +1,33 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50px;
+
+}
+
+
 .menu {
     display: flex;
     flex-direction: row;
     text-decoration: none;
     justify-content: flex-end;
-    align-content: space-around;
+    padding: 30px;
+           
+ }
+
+
+.menu li{
     padding: 10px;
+    
         
  }
+
+ 

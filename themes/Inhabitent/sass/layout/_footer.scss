@@ -22,7 +22,14 @@ footer {
     grid-row-end: 2;
     grid-column-start: 4;
     grid-column-end: 5;
-    margin: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+
+    img {
+    justify-items: center;
+    align-items: center;
+    }
+    
 }
 
 .copyright {
@@ -32,6 +39,8 @@ footer {
     grid-column-end: 5;
     text-align: center;
 }
+
+
 
 
 
