@@ -54,6 +54,132 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  padding: 10px; }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  height: 300px;
+  background-image: url("http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/dark-wood.png");
+  bottom: 0;
+  color: white; }
+
+.contact {
+  margin: 50px; }
+
+.hours {
+  margin: 50px; }
+
+.footer-logo {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  margin: 50px; }
+
+.copyright {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center; }
+
 body {
-  background: white;
-  font-size: 2em; }
+  background: grey; }
+
+.front {
+  position: relative; }
+
+.front.background {
+  position: relative; }
+
+.front.logo {
+  position: absolute; }
+
+h2 {
+  text-align: center; }
+
+.shop {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  height: 200px;
+  background-color: gold; }
+
+.journal {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  height: 200px;
+  background-color: khaki; }
+
+.adventures {
+  display: grid;
+  margin: 50px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  height: 300px;
+  background-color: darkslategrey; }
+  .adventures .a-one {
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  .adventures .a-two {
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .adventures .a-three {
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .adventures .a-four {
+    background-color: orange;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+
+.about {
+  text-align: center;
+  line-height: 1.75;
+  font-size: 16px; }
+
+.attachment-medium.size-medium.wp-post-image {
+  width: 100%;
+  height: auto; }
+
+.text {
+  display: grid;
+  margin: 10px 300px;
+  z-index: 999; }
