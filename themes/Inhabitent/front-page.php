@@ -3,10 +3,6 @@
 <section class="body">
 
 
-
-
-
-
 <?php if( have_posts() ) :
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
@@ -30,7 +26,14 @@
 
     <h2>Shop stuff</h2>
 
-    <section class="shop">
+    <!-- <div class="shop-stuff">
+        <!-- <?php $terms = get_terms( array(
+            'taxonomy' => 'product-type',
+            'hide_empty' => false,
+        ));?> -->
+    </div> -->
+
+    <!-- <section class="shop">
 
         <div class="s-one">
         </div>
@@ -44,7 +47,7 @@
         <div class="s-four">
         </div>
 
-    </section>
+    </section> -->
 
     <h2>Inhabitent Journal</h2>
 

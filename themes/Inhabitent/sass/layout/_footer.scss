@@ -10,11 +10,24 @@ footer {
 
 .contact {
     margin: 50px;
+    line-height: 1.75;
+    
+    span.title{
+        color: #d99054;
+        text-transform: uppercase;
+    }
 
 }
 
 .hours {
     margin-top: 50px;
+    margin-left: 50px;
+    line-height: 1.75;
+
+    span.title{
+        color: #d99054;
+        text-transform: uppercase;
+    }
     
     
 }
@@ -24,12 +37,16 @@ footer {
     grid-row-end: 2;
     grid-column-start: 4;
     grid-column-end: 5;
-    margin-top: 50px;
     margin-right: 50px;
-
+    margin-top: -75px;
+    // margin-right: 50px;
     img {
-    justify-items: center;
-    align-items: center;
+        width: 100%;
+        height: 100%;
+        // justify-items: center;
+        // align-items: top;
+        
+        
     }
     
 }

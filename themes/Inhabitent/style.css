@@ -156,23 +156,30 @@ footer {
   color: white; }
 
 .contact {
-  margin: 50px; }
+  margin: 50px;
+  line-height: 1.75; }
+  .contact span.title {
+    color: #d99054;
+    text-transform: uppercase; }
 
 .hours {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-left: 50px;
+  line-height: 1.75; }
+  .hours span.title {
+    color: #d99054;
+    text-transform: uppercase; }
 
 .footer-logo {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 4;
   grid-column-end: 5;
-  margin-top: 50px;
-  margin-right: 50px; }
+  margin-right: 50px;
+  margin-top: -75px; }
   .footer-logo img {
-    justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    width: 100%;
+    height: 100%; }
 
 .copyright {
   grid-row-start: 2;
@@ -180,9 +187,6 @@ footer {
   grid-column-start: 1;
   grid-column-end: 5;
   text-align: center; }
-
-body {
-  background: grey; }
 
 .front {
   width: 100%;
@@ -271,7 +275,6 @@ h2 {
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
   width: 100%;
-  height: 1000px;
   -o-object-fit: cover;
      object-fit: cover;
   top: 0;
@@ -281,7 +284,49 @@ h2 {
   width: 100%;
   height: auto; }
 
-.text {
+.text-content {
   display: grid;
-  margin: 10px 300px;
-  z-index: 999; }
+  margin-left: 150px;
+  margin-right: 150px; }
+  .text-content .title {
+    color: green; }
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  border-radius: 2px;
+  margin-left: 50px;
+  margin-right: 50px; }
+  .products img {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1fr; }
+  .main .posts {
+    grid-column-start: 1; }
+  .main .sidebar {
+    display: grid;
+    grid-column-start: 2; }
