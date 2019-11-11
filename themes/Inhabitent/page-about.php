@@ -8,7 +8,9 @@
         the_post(); ?>
     
     <h2><?php the_title(); ?></h2>
+    <div class=image>
     <?php the_post_thumbnail('medium');?>
+    </div>
     
     <?php the_content(); ?>
    

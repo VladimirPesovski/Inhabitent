@@ -5,7 +5,7 @@
 <p>Contact info</p>
 <p>info@inhabitent.com</p>
 <p>778-456-7891</p>
-<p>icon icon icon</p>
+<p></p>
 </div> 
 <div class="hours">
 <p>Business hours</p>

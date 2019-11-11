@@ -54,6 +54,48 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: 'Merriweather-light';
+  src: url("fonts/merriweather/fonts/merriweather-light-webfont.eot");
+  src: url("fonts/merriweather/fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-light-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-light-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-light-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather-lightitalic';
+  src: url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.eot");
+  src: url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather-bold';
+  src: url("fonts/merriweather/fonts/merriweather-bold-webfont.eot");
+  src: url("fonts/merriweather/fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-bold-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather-bolditalic';
+  src: url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.eot");
+  src: url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Novecento-Sans';
+  src: url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.eot");
+  src: url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.woff2") format("woff2"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.woff") format("woff"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.ttf") format("truetype"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Novecento-Sans-bold';
+  src: url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.eot");
+  src: url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,8 +132,7 @@ table {
   text-decoration: none;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding: 30px; }
+          justify-content: flex-end; }
 
 .menu li {
   padding: 10px; }
@@ -118,7 +159,7 @@ footer {
   margin: 50px; }
 
 .hours {
-  margin: 50px; }
+  margin-top: 50px; }
 
 .footer-logo {
   grid-row-start: 1;
@@ -144,25 +185,29 @@ body {
   background: grey; }
 
 .front {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  width: 100%;
+  height: 600px; }
 
 .background {
-  position: relative;
-  background-size: contain, cover; }
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1; }
 
 .main-logo {
-  position: absolute; }
+  width: 200px;
+  position: absolute;
+  left: 40%;
+  top: 20%; }
 
 h2 {
-  text-align: center; }
+  font-family: 'Novecento-Sans-bold';
+  text-align: center;
+  text-transform: uppercase;
+  size: 22px; }
 
 .shop {
   display: grid;
@@ -196,25 +241,22 @@ h2 {
   height: 300px;
   background-color: darkslategrey; }
   .adventures .a-one {
-    background-color: green;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3; }
+    grid-row-end: 3;
+    background-position: center; }
   .adventures .a-two {
-    background-color: red;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2; }
   .adventures .a-three {
-    background-color: blue;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3; }
   .adventures .a-four {
-    background-color: orange;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
@@ -224,6 +266,16 @@ h2 {
   text-align: center;
   line-height: 1.75;
   font-size: 16px; }
+
+.image {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  width: 100%;
+  height: 1000px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  z-index: -1; }
 
 .attachment-medium.size-medium.wp-post-image {
   width: 100%;
