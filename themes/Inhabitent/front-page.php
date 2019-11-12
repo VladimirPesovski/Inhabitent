@@ -68,19 +68,19 @@
     <section class="adventures">
         
         <div class="a-one">
-            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/canoe-girl.jpg" style="width: 100%;max-height: 100%" />
+            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/canoe-girl.jpg" style="width: 100%;" style="height: 500px;"/>
         </div>
 
         <div class="a-two">
-            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/beach-bonfire-1.jpg" style="width: 100%;max-height: 100%" />
+            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/beach-bonfire-1.jpg" style="width: 100%;" style="height: 250px; " />
         </div>
 
         <div class="a-three">
-            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/mountain-hikers-1.jpg" style="width: 100%;max-height: 100%" />
+            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/mountain-hikers-1.jpg" style="width: 100%;" style="height: 250px;" />
         </div>
 
         <div class="a-four"> 
-            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/night-sky.jpg" style="width: 100%;max-height: 100%" />
+            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/night-sky.jpg" style="width: 100%; " style="height: 250px;" />
         </div>
 
     </section>

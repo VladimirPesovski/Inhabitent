@@ -1,0 +1,44 @@
+.findus {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 2fr 1fr 4fr;
+
+    .p {
+        grid-column: 1 / 2 ;
+        grid-row: 1 / 3 ;
+        
+        
+    }
+    .sidebar {
+        grid-column: 2 / 3 ;
+    }
+
+    .strong {
+        text-transform: uppercase;
+
+    }
+}
+
+form {
+
+    text-transform: uppercase;
+    
+
+    .text {
+        background: grey;
+        margin-top: 10px;
+    }
+    .email {
+        background: grey;
+        margin-top: 10px;
+    }
+    .submit {
+        background: green;
+        border-radius: 1px;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+
+

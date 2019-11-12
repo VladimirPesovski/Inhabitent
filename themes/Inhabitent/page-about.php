@@ -6,9 +6,9 @@
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
-    
-    <h2><?php the_title(); ?></h2>
     <div class="image">
+    <h2><?php the_title(); ?></h2>
+    
     <?php the_post_thumbnail('medium');?>
     </div>
     
@@ -27,6 +27,7 @@
         <p>No posts found</p>
 <?php endif;?>
 </div>
+
 </section>
     
 <?php get_footer();?>

@@ -1,24 +1,37 @@
 
 .about {
-    
+
+    position: relative;
     text-align: center;
     line-height: 1.75;
-    font-size: 16px;
-}
-
-.image {
-    filter:brightness(50%);
-    width: 100%;
-    object-fit: cover;
-    top: 0;
-    z-index: -1;
-}
-
-.attachment-medium.size-medium.wp-post-image {
-    width: 100%;
-    height: auto;
     
+    h2 {
+       
+        font-size: 50px;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        color: white;
+       
+    }
+    .attachment-medium.size-medium.wp-post-image {
+        filter:brightness(50%);
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        top: 0;
+        z-index: -99;
+        
+    }
+   
+   
 }
+
+
+
+
 
 .text-content {
     display: grid;

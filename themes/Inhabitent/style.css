@@ -55,42 +55,42 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: 'Merriweather-light';
-  src: url("fonts/merriweather/fonts/merriweather-light-webfont.eot");
-  src: url("fonts/merriweather/fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-light-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-light-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-light-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-family: 'Merriweather light';
+  src: url("fonts/Merriweather/fonts/merriweather-light-webfont.eot");
+  src: url("fonts/Merriweather/fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Merriweather/fonts/merriweather-light-webfont.woff2") format("woff2"), url("fonts/Merriweather/fonts/merriweather-light-webfont.woff") format("woff"), url("fonts/Merriweather/fonts/merriweather-light-webfont.ttf") format("truetype"), url("fonts/Merriweather/fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Merriweather-lightitalic';
-  src: url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.eot");
-  src: url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
+  font-family: 'Merriweather lightitalic';
+  src: url("fonts/Merriweather/fonts/merriweather-lightitalic-webfont.eot");
+  src: url("fonts/Merriweather/fonts/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("fonts/Merriweather/fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("fonts/Merriweather/fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Merriweather-bold';
-  src: url("fonts/merriweather/fonts/merriweather-bold-webfont.eot");
-  src: url("fonts/merriweather/fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-bold-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-family: 'Merriweather bold';
+  src: url("fonts/Merriweather/fonts/merriweather-bold-webfont.eot");
+  src: url("fonts/Merriweather/fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Merriweather/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("fonts/Merriweather/fonts/merriweather-bold-webfont.woff") format("woff"), url("fonts/Merriweather/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("fonts/Merriweather/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Merriweather-bolditalic';
-  src: url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.eot");
-  src: url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("fonts/merriweather/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  font-family: 'Merriweather bolditalic';
+  src: url("fonts/Merriweather/fonts/merriweather-bolditalic-webfont.eot");
+  src: url("fonts/Merriweather/fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("fonts/Merriweather/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("fonts/Merriweather/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Novecento-Sans';
+  font-family: 'Novecento Sans';
   src: url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.eot");
   src: url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.woff2") format("woff2"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.woff") format("woff"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.ttf") format("truetype"), url("fonts/Novocento/fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Novecento-Sans-bold';
+  font-family: 'Novecento Sans-bold';
   src: url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.eot");
   src: url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
   font-weight: bold;
@@ -151,6 +151,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 3fr 1fr;
   height: 300px;
+  font-family: 'Merriweather light';
   background-image: url("http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/dark-wood.png");
   bottom: 0;
   color: white; }
@@ -187,6 +188,14 @@ footer {
   grid-column-start: 1;
   grid-column-end: 5;
   text-align: center; }
+
+.sidebar {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; }
+
+.title {
+  color: orange; }
 
 .front {
   width: 100%;
@@ -237,52 +246,57 @@ h2 {
   display: grid;
   margin: 50px;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
-  row-gap: 10px;
-  height: 300px;
-  background-color: darkslategrey; }
+  grid-template-columns: 2fr 1fr 1fr;
+  height: 500px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  row-gap: 20px;
+  background-color: white; }
   .adventures .a-one {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
     background-position: center; }
   .adventures .a-two {
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2; }
   .adventures .a-three {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .adventures .a-four {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3; }
-  .adventures .a-four {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3; }
 
 .about {
+  position: relative;
   text-align: center;
-  line-height: 1.75;
-  font-size: 16px; }
-
-.image {
-  -webkit-filter: brightness(50%);
-          filter: brightness(50%);
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  top: 0;
-  z-index: -1; }
-
-.attachment-medium.size-medium.wp-post-image {
-  width: 100%;
-  height: auto; }
+  line-height: 1.75; }
+  .about h2 {
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 999;
+    color: white; }
+  .about .attachment-medium.size-medium.wp-post-image {
+    -webkit-filter: brightness(50%);
+            filter: brightness(50%);
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+    z-index: -99; }
 
 .text-content {
   display: grid;
@@ -301,6 +315,8 @@ h2 {
   border-radius: 2px;
   margin-left: 50px;
   margin-right: 50px; }
+  .products h3 {
+    text-align: center; }
   .products img {
     width: 100%;
     height: 500px;
@@ -322,11 +338,52 @@ h2 {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+h2 {
+  margin-top: 50px; }
+
 .main {
   display: grid;
-  grid-template-columns: 3fr 1fr; }
+  grid-template-columns: 3fr 1fr;
+  border: 2px solid;
+  border-color: #e1e1e1; }
   .main .posts {
-    grid-column-start: 1; }
-  .main .sidebar {
-    display: grid;
-    grid-column-start: 2; }
+    grid-column-start: 1;
+    position: relative;
+    padding: 30px 50px 30px 30px; }
+    .main .posts h2 {
+      position: absolute;
+      font-size: 20px;
+      text-align: left;
+      background-color: cadetblue;
+      padding: 20px;
+      color: white;
+      padding: 20px; }
+
+.nav {
+  padding-bottom: 10px; }
+
+.findus {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 2fr 1fr 4fr; }
+  .findus .p {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3; }
+  .findus .sidebar {
+    grid-column: 2 / 3; }
+  .findus .strong {
+    text-transform: uppercase; }
+
+form {
+  text-transform: uppercase; }
+  form .text {
+    background: grey;
+    margin-top: 10px; }
+  form .email {
+    background: grey;
+    margin-top: 10px; }
+  form .submit {
+    background: green;
+    border-radius: 1px;
+    color: white;
+    text-transform: uppercase; }

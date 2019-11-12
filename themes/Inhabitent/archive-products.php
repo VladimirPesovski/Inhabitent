@@ -1,12 +1,14 @@
 <?php get_header(); ?>
-
+<hr>
 <h2>Shop Stuff</h2>
+
 <ul class="categories">
         <li>Do</li>
         <li>Eat</li>
         <li>Sleep</li>
         <li>Wear</li>
     </ul>
+<hr>
 
 <section class="products">
 
@@ -19,7 +21,7 @@
 <div class="product">
     
     <?php the_post_thumbnail('medium');?>
-    <h2><?php the_title(); ?><?php echo "$ " . get_field('price');?></h2>
+    <h3><?php the_title(); ?><?php echo "..." ;?><?php echo "$ " . get_field('price');?></h3>
     
 </div>
     <!-- Loop ends -->
