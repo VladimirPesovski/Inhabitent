@@ -33,21 +33,7 @@
         ));?> -->
     </div> -->
 
-    <!-- <section class="shop">
-
-        <div class="s-one">
-        </div>
-
-        <div class="s-two">
-        </div>
-
-        <div class="s-three">
-        </div>
-
-        <div class="s-four">
-        </div>
-
-    </section> -->
+    
 
     <h2>Inhabitent Journal</h2>
 
@@ -68,19 +54,23 @@
     <section class="adventures">
         
         <div class="a-one">
-            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/canoe-girl.jpg" style="width: 100%;" style="height: 500px;"/>
+            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/canoe-girl.jpg" style="width:100%";/>
+            <button>READ MORE</button>
         </div>
 
         <div class="a-two">
-            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/beach-bonfire-1.jpg" style="width: 100%;" style="height: 250px; " />
+            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/beach-bonfire-1.jpg" style="width:100%";/>
+            <button>READ MORE</button>
         </div>
 
         <div class="a-three">
-            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/mountain-hikers-1.jpg" style="width: 100%;" style="height: 250px;" />
+            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/mountain-hikers-1.jpg" style="width: 100%"; />
+            <button>READ MORE</button>
         </div>
 
         <div class="a-four"> 
-            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/night-sky.jpg" style="width: 100%; " style="height: 250px;" />
+            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/night-sky.jpg" style="width: 100%";/>
+            <button>READ MORE</button>
         </div>
 
     </section>
