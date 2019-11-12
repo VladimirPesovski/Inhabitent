@@ -90,7 +90,7 @@ table {
   font-style: normal; }
 
 @font-face {
-  font-family: 'Novecento Sans-bold';
+  font-family: 'Novecento Sansbold';
   src: url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.eot");
   src: url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("fonts/Novocento/fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
   font-weight: bold;
@@ -137,6 +137,12 @@ table {
 .menu li {
   padding: 10px; }
 
+.menu-main-container {
+  text-transform: uppercase;
+  font-size: 1.5em; }
+  .menu-main-container menu {
+    text-decoration: none; }
+
 .front {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,6 +167,7 @@ footer {
   line-height: 1.75; }
   .contact span.title {
     color: #d99054;
+    font-family: 'Novecento Sansbold';
     text-transform: uppercase; }
 
 .hours {
@@ -168,6 +175,7 @@ footer {
   margin-left: 50px;
   line-height: 1.75; }
   .hours span.title {
+    font-family: 'Novecento Sansbold';
     color: #d99054;
     text-transform: uppercase; }
 
@@ -193,17 +201,24 @@ footer {
   display: grid;
   grid-column: 2 / 3;
   grid-row: 1 / 2; }
-
-.title {
-  color: orange; }
+  .sidebar i {
+    margin: 10px;
+    color: #A1A1A1; }
+  .sidebar .phone {
+    color: #248A83; }
+  .sidebar .mail {
+    color: #248A83; }
+  .sidebar .address {
+    color: #248A83; }
 
 .front {
   width: 100%;
   height: 600px; }
 
 .background {
-  width: 100%;
-  height: 500px;
+  background-position-y: bottom;
+  max-width: 100%;
+  height: 700px;
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
@@ -212,15 +227,20 @@ footer {
 
 .main-logo {
   width: 200px;
-  position: absolute;
-  left: 40%;
-  top: 20%; }
+  position: relative;
+  left: 40%; }
 
-h2 {
-  font-family: 'Novecento-Sans-bold';
+body h1 {
   text-align: center;
   text-transform: uppercase;
-  size: 22px; }
+  font-size: 2.5em;
+  margin-top: 100px; }
+
+body h2 {
+  font-family: 'merriweather';
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em; }
 
 .shop {
   display: grid;
@@ -319,7 +339,7 @@ h2 {
     text-align: center; }
   .products img {
     width: 100%;
-    height: 500px;
+    height: 250px;
     -o-object-fit: cover;
        object-fit: cover; }
 
@@ -337,6 +357,11 @@ h2 {
   margin-right: 500px;
   margin-top: 50px;
   margin-bottom: 50px; }
+  .categories li {
+    padding: 10px;
+    font-size: 1em;
+    color: #248A83;
+    text-transform: uppercase; }
 
 h2 {
   margin-top: 50px; }
@@ -354,7 +379,7 @@ h2 {
       position: absolute;
       font-size: 20px;
       text-align: left;
-      background-color: cadetblue;
+      background-color: #248A83;
       padding: 20px;
       color: white;
       padding: 20px; }
@@ -365,7 +390,11 @@ h2 {
 .findus {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 2fr 1fr 4fr; }
+  grid-template-rows: 2fr 1fr 4fr;
+  margin: 50px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left; }
   .findus .p {
     grid-column: 1 / 2;
     grid-row: 1 / 3; }
@@ -373,17 +402,29 @@ h2 {
     grid-column: 2 / 3; }
   .findus .strong {
     text-transform: uppercase; }
+  .findus h3 {
+    font-size: 36px; }
 
 form {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  grid-row: 3;
+  grid-column: 1 / 2; }
   form .text {
-    background: grey;
-    margin-top: 10px; }
+    background-color: #eeeeee;
+    margin-top: 10px;
+    width: 400px;
+    height: 30px; }
   form .email {
-    background: grey;
-    margin-top: 10px; }
+    background-color: #eeeeee;
+    margin-top: 10px;
+    width: 400px;
+    height: 30px; }
   form .submit {
-    background: green;
+    background-color: #248A83;
     border-radius: 1px;
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    width: 75px;
+    height: 30px; }
+  form .message {
+    background-color: #eeeeee; }

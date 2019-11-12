@@ -2,10 +2,19 @@
     display: grid;
     grid-column: 2 / 3 ;
     grid-row: 1 / 2;
+    i {
+        margin: 10px;
+        color: #A1A1A1;
+    }
+    .phone {
+        color: #248A83;
+    }
+    .mail {
+        color: #248A83;
+    }
+    .address {   
+        color: #248A83;
+    }
     
 }
 
-.title {
-    color: orange;
-    // font-size: 20px;
-}

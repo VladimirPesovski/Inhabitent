@@ -30,7 +30,7 @@
 <img src="<?php echo get_stylesheet_directory_uri();?>\images\logos\inhabitent-logo-text.svg">
 </div>
 <div class="copyright">
-<p>Copyright 2016 Inhabitent</p>
+<p>Copyright © 2016 Inhabitent</p>
 </div>
 
 

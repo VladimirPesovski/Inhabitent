@@ -24,7 +24,7 @@
 
     </section>
 
-    <h2>Shop stuff</h2>
+    <h1>Shop stuff</h1>
 
     <!-- <div class="shop-stuff">
         <!-- <?php $terms = get_terms( array(

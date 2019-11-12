@@ -20,7 +20,7 @@
 
 <div class="product">
     
-    <?php the_post_thumbnail('medium');?>
+    <?php the_post_thumbnail('large');?>
     <h3><?php the_title(); ?><?php echo "..." ;?><?php echo "$ " . get_field('price');?></h3>
     
 </div>
