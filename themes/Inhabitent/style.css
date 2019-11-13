@@ -162,18 +162,26 @@ footer {
   bottom: 0;
   color: white; }
 
-.contact {
+.contactinfo {
   margin: 50px;
-  line-height: 1.75; }
-  .contact span.title {
+  line-height: 2.5; }
+  .contactinfo span.title {
     color: #d99054;
     font-family: 'Novecento Sansbold';
     text-transform: uppercase; }
+  .contactinfo .phonenumber {
+    padding-left: 5px; }
+  .contactinfo .email {
+    padding-left: 5px; }
+  .contactinfo i {
+    padding-right: 5px; }
 
 .hours {
   margin-top: 50px;
   margin-left: 50px;
-  line-height: 1.75; }
+  line-height: 2.5; }
+  .hours span {
+    font-family: 'Merriweather bold'; }
   .hours span.title {
     font-family: 'Novecento Sansbold';
     color: #d99054;
@@ -197,19 +205,40 @@ footer {
   grid-column-end: 5;
   text-align: center; }
 
+.contact {
+  margin: 50px 0px 0px 0px;
+  line-height: 2.5rem; }
+
 .sidebar {
   display: grid;
   grid-column: 2 / 3;
-  grid-row: 1 / 2; }
+  grid-row: 1 / 2;
+  text-align: left;
+  color: #404040;
+  font-size: 16px; }
   .sidebar i {
-    margin: 10px;
-    color: #A1A1A1; }
+    margin-right: 10px;
+    color: #404040; }
   .sidebar .phone {
+    font-family: 'merriweather light';
     color: #248A83; }
   .sidebar .mail {
+    font-family: 'merriweather light';
     color: #248A83; }
   .sidebar .address {
+    font-family: 'merriweather light'; }
+  .sidebar .operation {
+    font-family: 'merriweather light'; }
+    .sidebar .operation b {
+      font-family: 'merriweather bold'; }
+  .sidebar .archives {
+    font-family: 'merriweather light';
     color: #248A83; }
+
+.contact strong {
+  font-family: 'Novecento Sansbold';
+  font-size: 1.3em;
+  letter-spacing: 0.1em; }
 
 .front {
   width: 100%;
@@ -395,6 +424,9 @@ h2 {
       padding: 20px;
       color: white;
       padding: 20px; }
+    .main .posts .attachment-medium.size-medium.wp-post-image {
+      width: 80%;
+      height: 80%; }
 
 .nav {
   padding-bottom: 10px; }
