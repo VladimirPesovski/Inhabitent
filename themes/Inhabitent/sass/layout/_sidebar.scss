@@ -6,7 +6,7 @@
 .sidebar {
     display: grid;
     grid-column: 2 / 3 ;
-    grid-row: 1 / 2;
+    grid-row: 1 / 4;
     text-align: left;
     color: #404040;
     font-size: 14px;
@@ -27,11 +27,13 @@
 
     .address {
         font-family: 'merriweather light';
+        margin-bottom: 20px;
     }
     
     .operation {
        
         font-family: 'merriweather light';
+        margin-bottom: 20px;
         b{
             font-family: 'merriweather bold'; 
         }
@@ -47,7 +49,7 @@
 
 .contact strong {
     font-family: 'Novecento Sansbold';
-    font-size: 1.2em;
+    font-size: 1.4em;
     letter-spacing: 0.1em;
     
 }

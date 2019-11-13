@@ -154,21 +154,25 @@ table {
 
 footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.1fr 1fr 1fr 1.1fr;
   grid-template-rows: 3fr 1fr;
   height: 300px;
   font-family: 'Merriweather light';
   background-image: url("http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/dark-wood.png");
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
   bottom: 0;
   color: white; }
 
 .contactinfo {
-  margin: 50px;
+  margin-top: 50px;
+  margin-left: 70px;
   line-height: 2.5; }
   .contactinfo span.title {
     color: #d99054;
     font-family: 'Novecento Sansbold';
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 1.1em; }
   .contactinfo .phonenumber {
     padding-left: 5px; }
   .contactinfo .email {
@@ -184,15 +188,16 @@ footer {
   .hours span.title {
     font-family: 'Novecento Sansbold';
     color: #d99054;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 1.1em; }
 
 .footer-logo {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 4;
   grid-column-end: 5;
-  margin-right: 50px;
-  margin-top: -75px; }
+  margin-right: 60px;
+  margin-top: -100px; }
   .footer-logo img {
     width: 100%;
     height: 100%; }
@@ -211,7 +216,7 @@ footer {
 .sidebar {
   display: grid;
   grid-column: 2 / 3;
-  grid-row: 1 / 2;
+  grid-row: 1 / 4;
   text-align: left;
   color: #404040;
   font-size: 14px; }
@@ -225,9 +230,11 @@ footer {
     font-family: 'merriweather light';
     color: #248A83; }
   .sidebar .address {
-    font-family: 'merriweather light'; }
+    font-family: 'merriweather light';
+    margin-bottom: 20px; }
   .sidebar .operation {
-    font-family: 'merriweather light'; }
+    font-family: 'merriweather light';
+    margin-bottom: 20px; }
     .sidebar .operation b {
       font-family: 'merriweather bold'; }
   .sidebar .archives {
@@ -236,7 +243,7 @@ footer {
 
 .contact strong {
   font-family: 'Novecento Sansbold';
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: 0.1em; }
 
 .front {
@@ -437,12 +444,12 @@ h2 {
 
 .findus {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 2fr 1fr 4fr;
-  margin: 50px;
+  grid-template-columns: 3fr 1.2fr;
+  grid-template-rows: 2fr 1fr 3fr;
   -webkit-box-align: left;
       -ms-flex-align: left;
-          align-items: left; }
+          align-items: left;
+  border-top: 2px solid #e1e1e1; }
   .findus .p {
     grid-column: 1 / 2;
     grid-row: 1 / 3; }
@@ -451,28 +458,54 @@ h2 {
   .findus .strong {
     text-transform: uppercase; }
   .findus h3 {
-    font-size: 36px; }
+    font-family: 'novecento sansbold';
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    border-right: 2px solid #e1e1e1;
+    margin-left: 60px;
+    text-transform: uppercase; }
+  .findus h4 {
+    font-family: 'merriweather light';
+    margin-left: 60px;
+    margin-top: -40px;
+    padding-right: 50px;
+    border-right: 2px solid #e1e1e1;
+    letter-spacing: 0.1em; }
+    .findus h4 p {
+      margin-bottom: 10px; }
+    .findus h4 strong {
+      font-family: 'novecento sansbold';
+      font-size: 1.75em;
+      text-transform: uppercase; }
 
 form {
   text-transform: uppercase;
   grid-row: 3;
-  grid-column: 1 / 2; }
+  grid-column: 1 / 2;
+  border-right: 2px solid #e1e1e1;
+  margin-left: 60px; }
+  form span {
+    color: #d99054; }
   form .text {
     background-color: #eeeeee;
+    border: 2px solid #e1e1e1;
     margin-top: 10px;
-    width: 400px;
+    width: 350px;
     height: 30px; }
   form .email {
     background-color: #eeeeee;
+    border: 2px solid #e1e1e1;
     margin-top: 10px;
-    width: 400px;
+    width: 350px;
     height: 30px; }
   form .submit {
     background-color: #248A83;
-    border-radius: 1px;
+    font-size: 13px;
     color: white;
     text-transform: uppercase;
-    width: 75px;
-    height: 30px; }
+    width: 90px;
+    height: 35px;
+    margin-top: 15px; }
   form .message {
-    background-color: #eeeeee; }
+    background-color: #eeeeee;
+    border: 2px solid #e1e1e1; }
