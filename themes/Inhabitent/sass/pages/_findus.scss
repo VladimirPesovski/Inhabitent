@@ -4,19 +4,15 @@
     grid-template-rows: 2fr 1fr 3fr;
     align-items: left;
     border-top: 2px solid #e1e1e1;
-
     .p {
         grid-column: 1 / 2 ;
-        grid-row: 1 / 3 ;    
-        
+        grid-row: 1 / 3 ;       
     }
     .sidebar {
         grid-column: 2 / 3 ;
     }
-
     .strong {
         text-transform: uppercase;
-
     }
     h3 {
         font-family: 'novecento sansbold';
@@ -24,9 +20,8 @@
         font-size: 2em;
         border-right: 2px solid #e1e1e1; 
         margin-left: 60px;
-        
-        text-transform: uppercase;
-        
+        margin-bottom: 20px;    
+        text-transform: uppercase;   
     }
     h4 {
         font-family: 'merriweather light';
@@ -35,18 +30,17 @@
         padding-right: 50px;
         border-right: 2px solid #e1e1e1;
         letter-spacing: 0.1em;
-            p {
-                margin-bottom: 10px;
-            }
+        p {
+            margin-bottom: 10px;
+        }
         strong {
-            font-family: 'novecento sansbold';
-            font-size: 1.75em;
-            text-transform: uppercase;
+        font-family: 'novecento sansbold';
+        font-size: 1.75em;
+        text-transform: uppercase;
         }
     }
 
 }
-
 
 form {
 
@@ -55,12 +49,9 @@ form {
     grid-column: 1 / 2;
     border-right: 2px solid #e1e1e1;
     margin-left: 60px;
-
     span {
         color: #d99054;
     }
-    
-
     .text {
         background-color:rgb(238, 238, 238);
         border: 2px solid #e1e1e1;
@@ -87,8 +78,6 @@ form {
     .message {
         background-color: rgb(238, 238, 238);
         border: 2px solid #e1e1e1;
-        
-
     }
 }
 

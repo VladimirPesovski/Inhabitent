@@ -7,7 +7,7 @@
     
     h2 {
         font-family: 'Novecento Sansbold';
-        font-size: 5em;
+        font-size: 2.5em;
         position: absolute;
         top: 20%;
         left: 50%;
@@ -45,19 +45,21 @@
 
 .text-content {
     font-family: 'Merriweather light';
-    font-size: 1.5em;
+    font-size: 1em;
     // display: grid;
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 175px;
+    margin-right: 175px;
     margin-bottom: 100px;
+    text-align: center;
     strong {
         font-family: 'Novecento sansbold';
         font-size: 2em;
         color: black;
     }
-    
+      
     
 }
+
 
 

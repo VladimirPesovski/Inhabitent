@@ -25,6 +25,31 @@
     </section>
 
     <h1>Shop stuff</h1>
+        <div class="shop">
+        <section class="dostuff">
+        <img class="doicon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\do.svg" width="25%" >
+        <br>
+        <button class="do">DO STUFF</button>
+        </section>
+
+        <section class="eatstuff">
+        <img class="eaticon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\eat.svg" width="25%">
+        <br>
+        <button class="eat">EAT STUFF</button>
+        </section>
+
+        <section class="sleepstuff">
+        <img class="sleepicon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\sleep.svg" width="25%">
+        <br>
+        <button class="sleep">SLEEP STUFF</button>
+        </section>
+
+        <section class="wearstuff">
+        <img class="wearicon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\wear.svg"width="25%" >
+        <br>
+        <button class="wear">WEAR STUFF</button>
+        </section>
+        </div>
 
     <!-- <div class="shop-stuff">
         <!-- <?php $terms = get_terms( array(
