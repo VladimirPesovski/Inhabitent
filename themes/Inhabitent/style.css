@@ -215,6 +215,11 @@ footer {
   width: 100%;
   height: 600px; }
 
+.nav {
+  color: white;
+  font-size: 16px;
+  color: white; }
+
 .background {
   background-position-y: bottom;
   max-width: 100%;
@@ -232,7 +237,9 @@ footer {
 
 body {
   font-family: 'novecento sans';
-  font-size: 16px; }
+  font-size: 16px;
+  color: #404040;
+  line-height: 1.75; }
   body h1 {
     text-align: center;
     text-transform: uppercase;
@@ -290,7 +297,8 @@ body {
   text-align: center;
   line-height: 1.75; }
   .about h2 {
-    font-size: 50px;
+    font-family: 'Novecento Sansbold';
+    font-size: 5em;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -302,6 +310,7 @@ body {
     -webkit-filter: brightness(50%);
             filter: brightness(50%);
     width: 100%;
+    height: 700px;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
@@ -309,11 +318,20 @@ body {
     z-index: -99; }
 
 .text-content {
-  display: grid;
-  margin-left: 150px;
-  margin-right: 150px; }
-  .text-content .title {
-    color: green; }
+  font-family: 'Merriweather light';
+  font-size: 1.5em;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px; }
+  .text-content strong {
+    font-family: 'Novecento sansbold';
+    font-size: 2em;
+    color: black; }
+
+.dashed {
+  border: 1px dashed #c8c8c8;
+  margin: 50px; }
 
 .products {
   display: grid;
@@ -322,14 +340,18 @@ body {
   -webkit-column-gap: 20px;
      -moz-column-gap: 20px;
           column-gap: 20px;
-  border-radius: 2px;
+  border-radius: 1px;
   margin-left: 50px;
   margin-right: 50px; }
-  .products h3 {
-    text-align: center; }
+  .products p {
+    font-family: 'Merriweather light';
+    text-align: center;
+    border: 1px solid #a1a1a1;
+    border-top: 5px solid #a1a1a1;
+    padding: 10px; }
   .products img {
     width: 100%;
-    height: 250px;
+    max-height: 240px;
     -o-object-fit: cover;
        object-fit: cover; }
 

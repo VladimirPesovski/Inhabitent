@@ -2,6 +2,8 @@
 
 <section class="about">
 
+<!-- <img class="woods" src="<?php echo get_stylesheet_directory_uri();?>/images/about-hero.jpg/" style="width: 100%" > -->
+
 <?php if( have_posts() ) :
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
@@ -10,7 +12,6 @@
     <h2><?php the_title(); ?></h2>
     
     <?php the_post_thumbnail('medium');?>
-    </div>
     
     <div class="text-content">
         

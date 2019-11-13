@@ -19,7 +19,7 @@
 
     <section class="front">
     
-        <img class="background" src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/home-hero.jpg" width="100%">
+        <img class="background" src="wp-content/uploads/2019/11/home-hero.jpg" width="100%">
         <img class="main-logo" src="<?php echo get_stylesheet_directory_uri();?>\images\logos\inhabitent-logo-full.svg" >
 
     </section>
@@ -31,7 +31,7 @@
             'taxonomy' => 'product-type',
             'hide_empty' => false,
         ));?> -->
-    </div> -->
+    </div> 
 
     
 
