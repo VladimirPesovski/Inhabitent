@@ -1,5 +1,5 @@
 .contact {
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 0px 40px;
     line-height: 2.5rem;
 }
 
@@ -9,15 +9,12 @@
     grid-row: 1 / 2;
     text-align: left;
     color: #404040;
-    font-size: 16px;
+    font-size: 14px;
 
-    
-    
     
     i {
         margin-right: 10px;
-        color: #404040;
-        
+        color: #404040;   
     }
     .phone {
         font-family: 'merriweather light';
@@ -50,7 +47,7 @@
 
 .contact strong {
     font-family: 'Novecento Sansbold';
-    font-size: 1.3em;
+    font-size: 1.2em;
     letter-spacing: 0.1em;
     
 }

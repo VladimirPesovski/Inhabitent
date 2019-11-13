@@ -8,7 +8,7 @@
     <div class="posts">
     <h2><?php the_title(); ?></h2>
     <section class="image">
-    <?php the_post_thumbnail('medium');?>
+    <?php the_post_thumbnail('large');?>
     </section>
    
     <?php the_content(); ?>
