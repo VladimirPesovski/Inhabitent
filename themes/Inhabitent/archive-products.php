@@ -22,7 +22,7 @@
     
     <?php the_post_thumbnail('large');?>
     <a href="<?php echo get_permalink();?>">
-       <p><?php the_title();?>
+       <p class="title"><?php the_title();?>
        <?php echo " $" . get_field('price');?></p>
    </a>
     

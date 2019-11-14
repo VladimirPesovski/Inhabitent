@@ -76,26 +76,14 @@
     <h2>Latest Adventures</h2>
 
     <section class="adventures">
-        
-        <div class="a-one">
-            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/canoe-girl.jpg" style="width:100%";/>
-            <button>READ MORE</button>
-        </div>
 
-        <div class="a-two">
-            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/beach-bonfire-1.jpg" style="width:100%";/>
-            <button>READ MORE</button>
-        </div>
+            <img class="canoe" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\canoe-girl.jpg" style="width: 100%" >
 
-        <div class="a-three">
-            <img src="http://localhost:8888/Inhabitent/wp-content/uploads/2019/11/mountain-hikers-1.jpg" style="width: 100%"; />
-            <button>READ MORE</button>
-        </div>
+            <img class="bonfire" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\beach-bonfire.jpg" style="width: 100%">
 
-        <div class="a-four"> 
-            <img src="//localhost:8888/Inhabitent/wp-content/uploads/2019/11/night-sky.jpg" style="width: 100%";/>
-            <button>READ MORE</button>
-        </div>
+            <img class="hikers" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\mountain-hikers.jpg" style="width: 100%" >
+
+            <img class="sky" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\night-sky.jpg" style="width: 100%" >
 
     </section>
 

@@ -2,6 +2,7 @@
 <?php the_posts_navigation();?>
 
 
+
 <?php if( have_posts() ) :
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
