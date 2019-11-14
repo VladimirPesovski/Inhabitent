@@ -24,38 +24,31 @@
     </section>
 
     <h1>Shop stuff</h1>
-        <div class="shop">
-        <section class="dostuff">
-        <img class="doicon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\do.svg" width="25%" >
-        <br>
-        <button class="do">DO STUFF</button>
-        </section>
 
-        <section class="eatstuff">
-        <img class="eaticon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\eat.svg" width="25%">
-        <br>
-        <button class="eat">EAT STUFF</button>
-        </section>
+    <div class= "shop">
+<?php $terms = get_terms( array(
+   'taxonomy' => 'product-type',
+   'hide-empty' => false,
+));?>
 
-        <section class="sleepstuff">
-        <img class="sleepicon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\sleep.svg" width="25%">
-        <br>
-        <button class="sleep">SLEEP STUFF</button>
-        </section>
+<?php
 
-        <section class="wearstuff">
-        <img class="wearicon" src="<?php echo get_stylesheet_directory_uri();?>\images\product-type-icons\wear.svg"width="25%" >
-        <br>
-        <button class="wear">WEAR STUFF</button>
-        </section>
-        </div>
+foreach($terms as $term):?>
 
-    <!-- <div class="shop-stuff">
+<div>
+<img src="<?php echo get_stylesheet_directory_uri();?>/images/product-type-icons/<?php echo $term->slug;?>.svg">
+<?php echo category_description($term->term_id);?>
+<a href="<?php echo get_home_url() . $term->slug ;?>">
+<button href="<?php echo "product-type/" . $term->$slug;?>"><?php echo $term->name ;?></button></a>
+</div>
+<?php endforeach; ?>
+</div>
+ 
         <!-- <?php $terms = get_terms( array(
             'taxonomy' => 'product-type',
             'hide_empty' => false,
         ));?> -->
-    </div> 
+    </div>
 
     
 

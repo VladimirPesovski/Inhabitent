@@ -31,7 +31,8 @@ height: 600px;
 .main-logo {
     width: 250px;
     position: relative;
-    left: 40%;      
+    left: 40%; 
+     
 }
 
 
@@ -71,77 +72,80 @@ body {
     justify-items: center;
     justify-content: center;
     justify-self: center;
-    
-    .dostuff {
-        border-top: 5px solid #e1e1e1;
-        border-left: 2px solid #e1e1e1;
-        border-right: 2px solid #e1e1e1;
-        border-bottom: 2px solid #e1e1e1;
-        height: 250px;
-        .do {
-            width: 110px;
-            height: 37px;
-            background-color: #248A83;
-            color: white;
-            font-size: 12px;
-            padding-left: 10px;
-            padding-left: 10px;
-            font-weight: 500;
+        img {
+            width: 25%;
         }
+    
+    // .dostuff {
+    //     border-top: 5px solid #e1e1e1;
+    //     border-left: 2px solid #e1e1e1;
+    //     border-right: 2px solid #e1e1e1;
+    //     border-bottom: 2px solid #e1e1e1;
+    //     height: 250px;
+    //     .do {
+    //         width: 110px;
+    //         height: 37px;
+    //         background-color: #248A83;
+    //         color: white;
+    //         font-size: 12px;
+    //         padding-left: 10px;
+    //         padding-left: 10px;
+    //         font-weight: 500;
+    //     }
            
         
-    }
-    .eatstuff {
-        border-top: 5px solid #e1e1e1;
-        border-left: 2px solid #e1e1e1;
-        border-right: 2px solid #e1e1e1;
-        border-bottom: 2px solid #e1e1e1;
-        height: 250px;
-        .eat {
-            width: 110px;
-            height: 37px;
-            background-color: #248A83;
-            color: white;
-            font-size: 12px;
-            padding-left: 10px;
-            padding-left: 10px;
-            font-weight: 500;
-        }
-    }
-    .sleepstuff {
-        border-top: 5px solid #e1e1e1;
-        border-left: 2px solid #e1e1e1;
-        border-right: 2px solid #e1e1e1;
-        border-bottom: 2px solid #e1e1e1;
-        height: 250px;
-        .sleep {
-            width: 110px;
-            height: 37px;
-            background-color: #248A83;
-            color: white;
-            font-size: 12px;
-            padding-left: 10px;
-            padding-left: 10px;
-            font-weight: 500;
-        }
-    }
-    .wearstuff {
-        border-top: 5px solid #e1e1e1;
-        border-left: 2px solid #e1e1e1;
-        border-right: 2px solid #e1e1e1;
-        border-bottom: 2px solid #e1e1e1;
-        height: 250px;
-        .wear {
-            width: 110px;
-            height: 37px;
-            background-color: #248A83;
-            color: white;
-            font-size: 12px;
-            padding-left: 10px;
-            padding-left: 10px;
-            font-weight: 500;
-        }
-    }
+    // }
+    // .eatstuff {
+    //     border-top: 5px solid #e1e1e1;
+    //     border-left: 2px solid #e1e1e1;
+    //     border-right: 2px solid #e1e1e1;
+    //     border-bottom: 2px solid #e1e1e1;
+    //     height: 250px;
+    //     .eat {
+    //         width: 110px;
+    //         height: 37px;
+    //         background-color: #248A83;
+    //         color: white;
+    //         font-size: 12px;
+    //         padding-left: 10px;
+    //         padding-left: 10px;
+    //         font-weight: 500;
+    //     }
+    // }
+    // .sleepstuff {
+    //     border-top: 5px solid #e1e1e1;
+    //     border-left: 2px solid #e1e1e1;
+    //     border-right: 2px solid #e1e1e1;
+    //     border-bottom: 2px solid #e1e1e1;
+    //     height: 250px;
+    //     .sleep {
+    //         width: 110px;
+    //         height: 37px;
+    //         background-color: #248A83;
+    //         color: white;
+    //         font-size: 12px;
+    //         padding-left: 10px;
+    //         padding-left: 10px;
+    //         font-weight: 500;
+    //     }
+    // }
+    // .wearstuff {
+    //     border-top: 5px solid #e1e1e1;
+    //     border-left: 2px solid #e1e1e1;
+    //     border-right: 2px solid #e1e1e1;
+    //     border-bottom: 2px solid #e1e1e1;
+    //     height: 250px;
+    //     .wear {
+    //         width: 110px;
+    //         height: 37px;
+    //         background-color: #248A83;
+    //         color: white;
+    //         font-size: 12px;
+    //         padding-left: 10px;
+    //         padding-left: 10px;
+    //         font-weight: 500;
+    //     }
+    // }
     
 }
 

@@ -11,33 +11,42 @@
     justify-content: flex-start;
     width: 50px;
     margin-left: 70px;
-
+    margin-top: 5px;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
-    text-decoration: none;
-    justify-content: flex-end; 
-           
- }
-
-.menu li{
-    padding: 10px;
-         
+    text-decoration: none;         
  }
 
 .menu-main-container {
-
     text-transform: uppercase;
     font-size: 1.5em;
-
-    .menu {
-        a {
-            text-decoration: none;
-            color: red;
-            font-size: 16px;
+    li{
+        padding-left: 10px;  
+        padding-right: 10px;    
         }
-    }   
+    a {
+        text-decoration: none;
+        color: #248A83;
+        font-size: 16px;
+    }
+     
+
 
  }
+ 
+.search {
+    display: flex;
+    padding: 10px;
+    #ajaxsearchlite1 {
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+    }
+}
+
+   
+ 
+ 

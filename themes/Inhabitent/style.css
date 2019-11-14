@@ -120,7 +120,8 @@ table {
       -ms-flex-pack: start;
           justify-content: flex-start;
   width: 50px;
-  margin-left: 70px; }
+  margin-left: 70px;
+  margin-top: 5px; }
 
 .menu {
   display: -webkit-box;
@@ -130,21 +131,32 @@ table {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  text-decoration: none;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-
-.menu li {
-  padding: 10px; }
+  text-decoration: none; }
 
 .menu-main-container {
   text-transform: uppercase;
   font-size: 1.5em; }
-  .menu-main-container .menu a {
+  .menu-main-container li {
+    padding-left: 10px;
+    padding-right: 10px; }
+  .menu-main-container a {
     text-decoration: none;
-    color: red;
+    color: #248A83;
     font-size: 16px; }
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px; }
+  .search #ajaxsearchlite1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 25px; }
 
 .front {
   display: -webkit-box;
@@ -308,66 +320,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   justify-self: center; }
-  .shop .dostuff {
-    border-top: 5px solid #e1e1e1;
-    border-left: 2px solid #e1e1e1;
-    border-right: 2px solid #e1e1e1;
-    border-bottom: 2px solid #e1e1e1;
-    height: 250px; }
-    .shop .dostuff .do {
-      width: 110px;
-      height: 37px;
-      background-color: #248A83;
-      color: white;
-      font-size: 12px;
-      padding-left: 10px;
-      padding-left: 10px;
-      font-weight: 500; }
-  .shop .eatstuff {
-    border-top: 5px solid #e1e1e1;
-    border-left: 2px solid #e1e1e1;
-    border-right: 2px solid #e1e1e1;
-    border-bottom: 2px solid #e1e1e1;
-    height: 250px; }
-    .shop .eatstuff .eat {
-      width: 110px;
-      height: 37px;
-      background-color: #248A83;
-      color: white;
-      font-size: 12px;
-      padding-left: 10px;
-      padding-left: 10px;
-      font-weight: 500; }
-  .shop .sleepstuff {
-    border-top: 5px solid #e1e1e1;
-    border-left: 2px solid #e1e1e1;
-    border-right: 2px solid #e1e1e1;
-    border-bottom: 2px solid #e1e1e1;
-    height: 250px; }
-    .shop .sleepstuff .sleep {
-      width: 110px;
-      height: 37px;
-      background-color: #248A83;
-      color: white;
-      font-size: 12px;
-      padding-left: 10px;
-      padding-left: 10px;
-      font-weight: 500; }
-  .shop .wearstuff {
-    border-top: 5px solid #e1e1e1;
-    border-left: 2px solid #e1e1e1;
-    border-right: 2px solid #e1e1e1;
-    border-bottom: 2px solid #e1e1e1;
-    height: 250px; }
-    .shop .wearstuff .wear {
-      width: 110px;
-      height: 37px;
-      background-color: #248A83;
-      color: white;
-      font-size: 12px;
-      padding-left: 10px;
-      padding-left: 10px;
-      font-weight: 500; }
+  .shop img {
+    width: 25%; }
 
 .journal {
   display: grid;
@@ -498,7 +452,7 @@ h2 {
     font-family: 'merriweather light';
     grid-column-start: 1;
     position: relative;
-    padding: 40px 50px 30px 80px;
+    padding: 40px 50px 40px 80px;
     margin-right: 20px;
     border-right: 2px solid #e1e1e1; }
     .main .posts h2 {
@@ -514,6 +468,12 @@ h2 {
     .main .posts .attachment-large.size-large.wp-post-image {
       width: 100%;
       height: 70%; }
+    .main .posts button.read-more {
+      margin-top: 20px;
+      width: 100px;
+      height: 30px;
+      border: 1px solid;
+      background: none; }
 
 .nav {
   padding-bottom: 10px; }
@@ -620,3 +580,54 @@ form {
     font-family: 'merriweather light';
     font-size: 14px;
     margin-right: 70px; }
+
+.single-post-page {
+  display: grid;
+  border: 2px solid;
+  border-color: #e1e1e1; }
+
+.singlepost {
+  grid-column-start: 1;
+  border-color: #e1e1e1;
+  font-family: 'merriweather light';
+  position: relative;
+  padding: 40px 50px 40px 80px;
+  border-right: 2px solid #e1e1e1; }
+  .singlepost h2 {
+    font-family: 'novecento sansbold';
+    position: absolute;
+    font-size: 1.9em;
+    line-height: 1.3em;
+    text-align: left;
+    background-color: #248A83;
+    padding: 10px 10px 10px 20px;
+    color: white;
+    width: 450px; }
+  .singlepost .attachment-large.size-large.wp-post-image {
+    width: 110%;
+    height: 70%;
+    margin-right: 40px; }
+
+.side {
+  grid-column-start: 2; }
+  .side i {
+    margin-right: 10px;
+    color: #404040; }
+  .side .phone {
+    font-family: 'merriweather light';
+    color: #248A83; }
+  .side .mail {
+    font-family: 'merriweather light';
+    color: #248A83; }
+  .side .address {
+    font-family: 'merriweather light';
+    margin-bottom: 20px; }
+  .side .operation {
+    font-family: 'merriweather light';
+    margin-bottom: 20px; }
+    .side .operation b {
+      font-family: 'merriweather bold'; }
+  .side .archives {
+    font-family: 'merriweather light';
+    color: #248A83;
+    line-height: 1.5em; }

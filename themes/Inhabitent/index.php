@@ -10,8 +10,21 @@
     <section class="image">
     <?php the_post_thumbnail('large');?>
     </section>
+    <?php echo wp_trim_words(get_the_excerpt(), 50, "[...]") ; ?>
+    <section>
+    <a href="<?php echo get_permalink();?>"> <button class="read-more">READ MORE <i class="fas fa-long-arrow-alt-right"></i></button></a>
+    </section>
+    
+    
+    
+    
+    
+    
    
-    <?php the_content(); ?>
+    
+   
+    <!-- <?php the_content(); ?> -->
+    
     <br>
     </div>
     

@@ -7,10 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body <?php body_class();?>>
+
+
 <div class="nav">
 <a href="<?php echo get_home_url(); ?>"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>\images\logos\inhabitent-logo-tent-white.svg" alt="site logo"/></a>
 
+<section class="search">
+
 <?php  wp_nav_menu (array('theme_location' => 'primary'))  ;?>
 
+<?php echo get_search_form();?>
+</section>
+
 </div>
+
 <!-- <h1><?php bloginfo('name');?></h1> -->

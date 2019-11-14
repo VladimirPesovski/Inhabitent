@@ -1,0 +1,82 @@
+
+
+
+.single-post-page {
+    display: grid;
+    // grid-template: 3.3fr 1fr;
+    
+    border: 2px solid;
+    border-color: #e1e1e1;
+    
+}
+.singlepost {
+    
+    grid-column-start: 1;
+    border-color: #e1e1e1;
+    font-family: 'merriweather light';
+    position: relative;
+    padding: 40px 50px 40px 80px;
+    border-right: 2px solid #e1e1e1;
+
+    h2 {
+        font-family: 'novecento sansbold';
+        position: absolute;
+        font-size: 1.9em;
+        line-height: 1.3em;
+        text-align: left;
+        background-color: #248A83;
+        padding: 10px 10px 10px 20px;
+        color: white;
+        width: 450px;
+    }
+    .attachment-large.size-large.wp-post-image {
+        width: 110%;
+        height: 70%;
+       
+        margin-right: 40px;
+    } 
+}
+
+.side {
+    grid-column-start: 2;
+    i {
+        margin-right: 10px;
+        color: #404040;   
+    }
+    .phone {
+        font-family: 'merriweather light';
+        color: #248A83;
+    }
+    .mail {
+        font-family: 'merriweather light';
+        color: #248A83;
+    }
+
+    .address {
+        font-family: 'merriweather light';
+        margin-bottom: 20px;
+    }
+    
+    .operation {
+       
+        font-family: 'merriweather light';
+        margin-bottom: 20px;
+        
+        b{
+            font-family: 'merriweather bold'; 
+        }
+        
+    }
+    .archives {
+        font-family: 'merriweather light'; 
+        color: #248A83;
+        line-height: 1.5em;
+
+    }
+}
+
+
+
+
+
+    
