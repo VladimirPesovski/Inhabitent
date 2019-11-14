@@ -38,17 +38,18 @@ foreach($terms as $term):?>
 <div>
 <img src="<?php echo get_stylesheet_directory_uri();?>/images/product-type-icons/<?php echo $term->slug;?>.svg">
 <?php echo category_description($term->term_id);?>
-<a href="<?php echo get_home_url() . $term->slug ;?>">
-<button href="<?php echo "product-type/" . $term->$slug;?>"><?php echo $term->name ;?></button></a>
+<button>
+<a href="<?php echo get_home_url() . "/product-type/" . $term->slug;?>">
+
+    <?php echo $term->name ;?>
+    </button>
+</a>
 </div>
 <?php endforeach; ?>
 </div>
  
-        <!-- <?php $terms = get_terms( array(
-            'taxonomy' => 'product-type',
-            'hide_empty' => false,
-        ));?> -->
-    </div>
+        
+    
 
     
 
