@@ -584,3 +584,37 @@ form {
   form .message {
     background-color: #eeeeee;
     border: 2px solid #e1e1e1; }
+
+.single-product {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-top: 2px solid #e1e1e1;
+  margin-left: 70px;
+  margin-right: 70px;
+  grid-template-areas: "single-image single-text " "sing;e-image single-text";
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px; }
+  .single-product .single-image {
+    grid-column: 1 / 2;
+    grid-row: 1/ 3;
+    margin-top: 50px; }
+    .single-product .single-image img {
+      width: 475px;
+      height: auto; }
+  .single-product .single-title {
+    grid-column: 2 / 3;
+    font-family: 'Novecento sansbold';
+    color: #d99054; }
+    .single-product .single-title h2 {
+      text-align: left;
+      -webkit-box-align: left;
+          -ms-flex-align: left;
+              align-items: left; }
+  .single-product .single-price {
+    font-size: 1.6em;
+    padding-bottom: 20px; }
+  .single-product .single-content {
+    font-family: 'merriweather light';
+    font-size: 14px; }
