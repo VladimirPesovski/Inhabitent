@@ -1,10 +1,8 @@
 
 .about {
-
     position: relative;
     text-align: center;
-    line-height: 1.75;
-    
+    line-height: 1.75;  
     h2 {
         font-family: 'Novecento Sansbold';
         font-size: 2.5em;
@@ -13,32 +11,17 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: 999;
-        color: white;
-       
+        color: white;  
     }
-
     .attachment-medium.size-medium.wp-post-image {
         filter:brightness(50%);
         width: 100%;
-        height: 700px;
-        
-        height: auto;
+        height: 100%;
         object-fit: cover;
         top: 0;
         z-index: -99;
-        
-    }
-
- 
-
-   
-   
-   
+    }      
 }
-
-
-
-
 
 .text-content {
     font-family: 'Merriweather light';
@@ -53,9 +36,7 @@
         font-family: 'Novecento sansbold';
         font-size: 2em;
         color: black;
-    }
-      
-    
+    }  
 }
 
 

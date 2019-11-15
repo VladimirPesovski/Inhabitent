@@ -23,9 +23,9 @@
     <?php the_post_thumbnail('large');?>
     <button>
     <a href="<?php echo get_permalink();?>">
-       <p class="title"><?php the_title();?>
-       <?php echo " $" . get_field('price');?></p>
-   </a>
+    <?php the_title();?>.............. 
+    <?php echo " $" . get_field('price');?>
+    </a>
     </button>
     
 </div>

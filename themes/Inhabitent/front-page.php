@@ -65,26 +65,22 @@ foreach($terms as $term):?>
    // print_r($postslist);
    foreach ($postslist as $post) : setup_postdata($post); ?>
     <div>
+
    <?php the_post_thumbnail('medium');?>
-        <section class="journal-front">
-        <div class="journal-date">
+
+        <section>
        <?php the_date(); ?>
-        </div>
-       <br />
+       <br>
        <?php the_title(); ?>
-       <?php echo wp_trim_words(get_the_excerpt(), 10, "..."); ?>
+       <br>
+
+        <section>
+        <a href="<?php echo get_permalink();?>"> <button class="read-more">READ MORE <i class="fas fa-long-arrow-alt-right"></i></button></a>
+        </section>
+
 </section>
    </div>
    <?php endforeach; ?>
-
-    <div class="j-one">
-        </div>
-
-        <div class="j-two">   
-        </div>
-        
-        <div class="j-three">
-    </div>
     </section>
 
     <br>
@@ -104,7 +100,7 @@ foreach($terms as $term):?>
 
     </section>
 
-    <?php $terms = get_terms( array (
+    <!-- <?php $terms = get_terms( array (
     'taxonomy' => 'product-type',
     'hide_empty' => false,
 ) );
@@ -116,9 +112,9 @@ foreach($terms as $term):
  echo '</br>';
 endforeach;
 
-?>
+?> -->
 
-    <?php the_posts_navigation();?>
+    <!-- <?php the_posts_navigation();?>
     <?php
 
 $args = array( 'numberposts' => 3, 'order'=> 'ASC', 'orderby' => 'title' );
@@ -130,7 +126,7 @@ foreach ($postslist as $post) :  setup_postdata($post); ?>
        <?php the_title(); ?>
        <?php echo wp_trim_words(get_the_excerpt(), 10, "..."); ?>
    </div>
-<?php endforeach; ?>
+<?php endforeach; ?> -->
 
     <!-- END OF BLOG POSTS -->
 

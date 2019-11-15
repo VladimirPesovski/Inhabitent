@@ -13,17 +13,22 @@
     margin-left: 50px;
     margin-right: 50px;
     background-color: white;
+    
+   
 
     button { 
         font-family: 'Merriweather light';
         font-size: 14px;
         text-align: center;
         width: 100%;
-        border: 1px solid #a1a1a1;
-        border-top: 5px solid #a1a1a1;
-        padding: 10px;
+        border: 1px solid #e1e1e1;
+        border-top: 5px solid #e1e1e1;
+        padding: 15px;
         background-color: white;
-        text-decoration: none;
+        a {
+            text-decoration: none;
+            color: black;
+        }
         
     }
     
@@ -32,6 +37,7 @@
         width: 100%;
         max-height: 240px;
         object-fit: cover;
+        border: 1px solid #a1a1a1;
     }
     
 }

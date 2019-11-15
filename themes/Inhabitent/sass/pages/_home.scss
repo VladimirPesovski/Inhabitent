@@ -113,7 +113,9 @@ body {
     margin: 50px 50px 100px 50px;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
-    height: 250px;
+    height: 400px;
+    
+     
     img {
         width: 100%;
         height: auto;
@@ -123,14 +125,15 @@ body {
         color: #248A83;
         margin-bottom: 5px;
     }
-    .journal-front {
-        border-top: 5px solid #e1e1e1;
-        border-left: 2px solid #e1e1e1;
-        border-right: 2px solid #e1e1e1;
-        border-bottom: 2px solid #e1e1e1;
-        padding: 0px 10px;
-        
+ 
+    .read-more {
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        border: 1px solid ;
+        background: none;
     }
+    
 }
 
 .adventures {
