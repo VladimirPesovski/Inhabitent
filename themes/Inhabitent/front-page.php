@@ -47,9 +47,11 @@ foreach($terms as $term):?>
 </div>
 <?php endforeach; ?>
 </div>
- 
-        
+   
     
+
+
+
 
     
 
@@ -57,17 +59,38 @@ foreach($terms as $term):?>
 
     <section class="journal">
 
-        <div class="j-one">
+    <?php
+   $args = array('numberposts' => 3, 'order'=> 'ASC', 'orderby' =>'date');
+   $postslist = get_posts($args);
+   // print_r($postslist);
+   foreach ($postslist as $post) : setup_postdata($post); ?>
+    <div>
+   <?php the_post_thumbnail('medium');?>
+        <section class="journal-front">
+        <div class="journal-date">
+       <?php the_date(); ?>
+        </div>
+       <br />
+       <?php the_title(); ?>
+       <?php echo wp_trim_words(get_the_excerpt(), 10, "..."); ?>
+</section>
+   </div>
+   <?php endforeach; ?>
+
+    <div class="j-one">
         </div>
 
         <div class="j-two">   
         </div>
         
         <div class="j-three">
-        </div>
+    </div>
     </section>
 
+    <br>
+    <div class="adventures-heading">
     <h2>Latest Adventures</h2>
+    </div>
 
     <section class="adventures">
 

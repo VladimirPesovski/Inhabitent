@@ -21,10 +21,12 @@
 <div class="product">
     
     <?php the_post_thumbnail('large');?>
+    <button>
     <a href="<?php echo get_permalink();?>">
        <p class="title"><?php the_title();?>
        <?php echo " $" . get_field('price');?></p>
    </a>
+    </button>
     
 </div>
     <!-- Loop ends -->

@@ -12,14 +12,21 @@
     border-radius: 1px;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: white;
 
-    p { 
+    button { 
         font-family: 'Merriweather light';
+        font-size: 14px;
         text-align: center;
+        width: 100%;
         border: 1px solid #a1a1a1;
         border-top: 5px solid #a1a1a1;
-        padding: 10px;      
+        padding: 10px;
+        background-color: white;
+        text-decoration: none;
+        
     }
+    
     
     img {  
         width: 100%;

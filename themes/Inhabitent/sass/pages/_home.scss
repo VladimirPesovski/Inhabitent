@@ -57,6 +57,7 @@ body {
         font-size: 2em;
         letter-spacing: 0.1em;
         }
+        
     
 
     
@@ -109,11 +110,27 @@ body {
 .journal {
 
     display: grid;
-    margin: 50px;
+    margin: 50px 50px 100px 50px;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
-    height: 200px;
-    background-color: khaki;
+    height: 250px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .journal-date {
+        font-family: 'Merriweather light';
+        color: #248A83;
+        margin-bottom: 5px;
+    }
+    .journal-front {
+        border-top: 5px solid #e1e1e1;
+        border-left: 2px solid #e1e1e1;
+        border-right: 2px solid #e1e1e1;
+        border-bottom: 2px solid #e1e1e1;
+        padding: 0px 10px;
+        
+    }
 }
 
 .adventures {

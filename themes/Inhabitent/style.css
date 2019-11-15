@@ -345,13 +345,25 @@ body {
 
 .journal {
   display: grid;
-  margin: 50px;
+  margin: 50px 50px 100px 50px;
   grid-template-columns: 1fr 1fr 1fr;
   -webkit-column-gap: 10px;
      -moz-column-gap: 10px;
           column-gap: 10px;
-  height: 200px;
-  background-color: khaki; }
+  height: 250px; }
+  .journal img {
+    width: 100%;
+    height: auto; }
+  .journal .journal-date {
+    font-family: 'Merriweather light';
+    color: #248A83;
+    margin-bottom: 5px; }
+  .journal .journal-front {
+    border-top: 5px solid #e1e1e1;
+    border-left: 2px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
+    border-bottom: 2px solid #e1e1e1;
+    padding: 0px 10px; }
 
 .adventures {
   display: grid;
@@ -427,13 +439,18 @@ body {
           column-gap: 20px;
   border-radius: 1px;
   margin-left: 50px;
-  margin-right: 50px; }
-  .products p {
+  margin-right: 50px;
+  background-color: white; }
+  .products button {
     font-family: 'Merriweather light';
+    font-size: 14px;
     text-align: center;
+    width: 100%;
     border: 1px solid #a1a1a1;
     border-top: 5px solid #a1a1a1;
-    padding: 10px; }
+    padding: 10px;
+    background-color: white;
+    text-decoration: none; }
   .products img {
     width: 100%;
     max-height: 240px;
