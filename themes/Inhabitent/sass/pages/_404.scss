@@ -1,0 +1,45 @@
+
+.broken-page-title {
+    
+    p {
+        margin: 50px;
+        font-family: 'merriweather light';
+        
+
+    }
+}
+
+.recent-posts {
+    margin: 50px;
+   .contact {
+       display: none;
+   }
+   #recent-posts-4 {
+       display: inline;
+       font-family: 'merriweather light';
+       a {
+       text-decoration: none;
+       color: #248A83;
+       }
+       .widgettitle {
+           font-family: 'novecento sans';
+           text-align: left;
+       }
+   }
+}
+
+.archives {
+    
+    margin: 50px;
+    .widgettitle {
+        font-family: 'novecento sans';
+        text-align: left;
+    }
+    p {
+        font-family: 'merriweather light';
+    }
+    label {
+        display: none;
+    }
+
+}

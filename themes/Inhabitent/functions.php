@@ -91,6 +91,22 @@ function inhabitent_post_types(){
         ), 
         'menu_icon' => 'dashicons-buddicons-activity'
     ));
+
+    register_post_type('adventures', array(
+        'has_archive' => true,
+        'show_in_rest' => true,
+        'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+        'public' => true,
+        'labels' => array(
+            'name' => 'Adventures',
+            'add_new_items' => 'Add New Adventures',
+            'edit_item' => 'Edit Adventures',
+            'all_items' => 'All Adventures',
+            'singular_name' => 'Adventures'
+
+        ), 
+        'menu_icon' => 'dashicons-buddicons-activity'
+    ));
 }
 add_action('init', 'inhabitent_post_types');
 

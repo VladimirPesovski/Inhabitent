@@ -84,6 +84,9 @@ foreach($terms as $term):?>
     </section>
 
     <br>
+
+
+
     <div class="adventures-heading">
     <h2>Latest Adventures</h2>
     </div>
@@ -100,33 +103,35 @@ foreach($terms as $term):?>
 
     </section>
 
-    <!-- <?php $terms = get_terms( array (
-    'taxonomy' => 'product-type',
-    'hide_empty' => false,
-) );
 
-foreach($terms as $term):
- echo $term->name;
- echo '</br>';
- echo $term->slug;
- echo '</br>';
-endforeach;
-
-?> -->
-
-    <!-- <?php the_posts_navigation();?>
-    <?php
-
-$args = array( 'numberposts' => 3, 'order'=> 'ASC', 'orderby' => 'title' );
-$postslist = get_posts( $args );
-foreach ($postslist as $post) :  setup_postdata($post); ?>
-   <div>
-       <?php the_date(); ?>
-       <br />
-       <?php the_title(); ?>
-       <?php echo wp_trim_words(get_the_excerpt(), 10, "..."); ?>
+<section>
+<h2>Latest Adventures</h2>
+<div class = "adventures">
+<?php
+   $args = array('numberposts' => 4, 'post_type' => 'adventures', 'order'=> 'ASC', 'orderby' =>'date');
+   $postslist = get_posts($args);
+   foreach ($postslist as $post) : setup_postdata($post); ?>
+    <div>
+   <?php the_post_thumbnail('medium');?>
+   <p><?php the_title(); ?></p>
+   <section>
+   <a href="<?php echo get_permalink();?>"><button>Read More</button></a>
+   </section>
    </div>
-<?php endforeach; ?> -->
+   <?php endforeach; ?>
+   <section>
+   <a href="<?php echo get_home_url() . '/adventures/';?>"><button>More adventures</button></a>
+   </section>
+
+
+
+
+
+
+
+
+
+
 
     <!-- END OF BLOG POSTS -->
 
