@@ -12,36 +12,34 @@ footer {
 
 .contactinfo {
     margin-top: 50px;
-    margin-left: 70px;
     line-height: 2.5;
-    
-    span.title{
+    margin-left: 50px;
+    .title {
         color: #d99054;
-        font-family: 'Novecento Sansbold';
+        font-family: 'novecento sansbold';
+        font-size: 1.1em;
         text-transform: uppercase;
     }
-
-    p {
+    .email {
         
-        padding-bottom: 15px;
+        padding-left: 5px;
+        
     }
     .phonenumber {
-        padding-left: 10px;
-        padding-bottom: 10px;
+        padding-left: 5px;
+
     }
 
-    .email {
-        padding-left: 10px;
-       
-        padding-bottom: 30px;
+    .icons {
+        i {
+            padding-right: 10px;
+        }
+        
     }
 
-    i {
-        padding-right: 10px;
-        padding-bottom: 5px;
-    }
-
+    
 }
+
 
 .hours {
     margin-top: 50px;

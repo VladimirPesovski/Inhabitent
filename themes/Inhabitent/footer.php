@@ -2,14 +2,14 @@
 
 <footer>  
 <div class="contactinfo">
-<span class="title">
+<div class="title">
 <p>Contact info</p>
+</div>
+
+<p><i class="fas fa-envelope"><span class="email"> info@inhabitent.com</i></p>
 </span>
 
-<p><i class="fas fa-envelope"><span class="email">info@inhabitent.com</i></p>
-</span>
-
-<p><i class="fas fa-phone"><span class="phonenumber">778-456-7891</i></p>
+<p><i class="fas fa-phone"><span class="phonenumber"> 778-456-7891</i></p>
 </span>
 
 <span class="icons"> 
