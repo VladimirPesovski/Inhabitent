@@ -1,22 +1,41 @@
 
-.broken-page-title {
-    
-    p {
-        margin: 50px;
-        font-family: 'merriweather light';
-        
+.broken-page {
+    display: grid;
+    grid-template-columns: 3fr 1.2fr;
+    border-top: 2px solid #e1e1e1;
+}
 
+#search-3 {
+    display: inline;
+    .proinput {
+    background-color: #e1e1e1
     }
 }
 
+
+
+
+.broken-page-title {
+  
+    p {
+        margin: 50px;
+        font-family: 'merriweather light';
+
+    }
+    
+}
+
 .recent-posts {
-    margin: 50px;
+
+    margin: 0px 0px 0px 50px;
+   
    .contact {
        display: none;
    }
    #recent-posts-4 {
        display: inline;
        font-family: 'merriweather light';
+
        a {
        text-decoration: none;
        color: #248A83;
@@ -26,11 +45,28 @@
            text-align: left;
        }
    }
+   #categories-3 {
+    display: inline;
+    h2 {
+    text-align: left;
+    font-family: 'novecento sans';
+    }
+    li a{
+        font-family: 'merriweather light';
+        text-decoration: none;
+        color: #248A83;
+    }
 }
+    
+    
+}
+
+
 
 .archives {
     
-    margin: 50px;
+    margin: 0px 0px 50px 50px;
+    
     .widgettitle {
         font-family: 'novecento sans';
         text-align: left;
@@ -43,3 +79,9 @@
     }
 
 }
+
+.sidebar {
+    border-left: 2px solid #e1e1e1;
+}
+
+

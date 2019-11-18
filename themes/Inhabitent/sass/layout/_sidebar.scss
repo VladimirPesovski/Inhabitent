@@ -44,6 +44,8 @@
         font-family: 'merriweather light'; 
         color: #248A83;
         line-height: 1.5em;
+        margin: 0px;
+       
 
     }
     
@@ -56,6 +58,14 @@
     
 }
 #recent-posts-4 {
+    display: none;
+}
+
+#categories-3 {
+    display: none;
+}
+
+#search-3 {
     display: none;
 }
 

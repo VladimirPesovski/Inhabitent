@@ -275,7 +275,8 @@ footer {
   .sidebar .archives {
     font-family: 'merriweather light';
     color: #248A83;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    margin: 0px; }
 
 .contact strong {
   font-family: 'Novecento Sansbold';
@@ -283,6 +284,12 @@ footer {
   letter-spacing: 0.1em; }
 
 #recent-posts-4 {
+  display: none; }
+
+#categories-3 {
+  display: none; }
+
+#search-3 {
   display: none; }
 
 .front {
@@ -781,12 +788,22 @@ form {
        object-fit: cover;
     border: 1px solid #a1a1a1; }
 
+.broken-page {
+  display: grid;
+  grid-template-columns: 3fr 1.2fr;
+  border-top: 2px solid #e1e1e1; }
+
+#search-3 {
+  display: inline; }
+  #search-3 .proinput {
+    background-color: #e1e1e1; }
+
 .broken-page-title p {
   margin: 50px;
   font-family: 'merriweather light'; }
 
 .recent-posts {
-  margin: 50px; }
+  margin: 0px 0px 0px 50px; }
   .recent-posts .contact {
     display: none; }
   .recent-posts #recent-posts-4 {
@@ -798,9 +815,18 @@ form {
     .recent-posts #recent-posts-4 .widgettitle {
       font-family: 'novecento sans';
       text-align: left; }
+  .recent-posts #categories-3 {
+    display: inline; }
+    .recent-posts #categories-3 h2 {
+      text-align: left;
+      font-family: 'novecento sans'; }
+    .recent-posts #categories-3 li a {
+      font-family: 'merriweather light';
+      text-decoration: none;
+      color: #248A83; }
 
 .archives {
-  margin: 50px; }
+  margin: 0px 0px 50px 50px; }
   .archives .widgettitle {
     font-family: 'novecento sans';
     text-align: left; }
@@ -808,3 +834,6 @@ form {
     font-family: 'merriweather light'; }
   .archives label {
     display: none; }
+
+.sidebar {
+  border-left: 2px solid #e1e1e1; }
