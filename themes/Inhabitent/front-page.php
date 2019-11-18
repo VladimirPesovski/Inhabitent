@@ -20,6 +20,7 @@
     <section class="front">
         <img class="background" src="<?php echo get_stylesheet_directory_uri();?>\images\home-hero.jpg" width="100%">
         <img class="main-logo" src="<?php echo get_stylesheet_directory_uri();?>\images\logos\inhabitent-logo-full.svg" >
+    
 
     </section>
 
@@ -47,20 +48,13 @@ foreach($terms as $term):?>
 </div>
 <?php endforeach; ?>
 </div>
-   
-    
-
-
-
-
-    
 
     <h2>Inhabitent Journal</h2>
 
     <section class="journal">
 
     <?php
-   $args = array('numberposts' => 3, 'order'=> 'ASC', 'orderby' =>'date');
+   $args = array('numberposts' => 3, 'order'=> 'DSC', 'orderby' =>'date');
    $postslist = get_posts($args);
    // print_r($postslist);
    foreach ($postslist as $post) : setup_postdata($post); ?>
@@ -69,75 +63,47 @@ foreach($terms as $term):?>
    <?php the_post_thumbnail('medium');?>
 
         <section>
+        <div class="date">
        <?php the_date(); ?>
-       <br>
+</div>
+       
+       <div class="title">
        <?php the_title(); ?>
-       <br>
-
-        <section>
-        <a href="<?php echo get_permalink();?>"> <button class="read-more">READ MORE <i class="fas fa-long-arrow-alt-right"></i></button></a>
-        </section>
-
+        </div>
+       
+        <a href="<?php echo get_permalink();?>"> <button class="read-entry">READ ENTRY</button></a>
+      
 </section>
    </div>
+   
    <?php endforeach; ?>
     </section>
 
+
+
+    <br> 
     <br>
-
-
-
-    <div class="adventures-heading">
-    <h2>Latest Adventures</h2>
-    </div>
-
+    <div class="adventures-section">
+    <section class="adventures-heading">
+     <div class="title"><h2>Latest Adventures</h2></div>
+    
     <section class="adventures">
-
             <img class="canoe" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\canoe-girl.jpg" style="width: 100%" >
-
             <img class="bonfire" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\beach-bonfire.jpg" style="width: 100%">
-
             <img class="hikers" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\mountain-hikers.jpg" style="width: 100%" >
-
             <img class="sky" src="<?php echo get_stylesheet_directory_uri();?>\images\adventure-photos\night-sky.jpg" style="width: 100%" >
-
     </section>
-
-
-<section>
-<h2>Latest Adventures</h2>
-<div class = "adventures">
-<?php
-   $args = array('numberposts' => 4, 'post_type' => 'adventures', 'order'=> 'ASC', 'orderby' =>'date');
-   $postslist = get_posts($args);
-   foreach ($postslist as $post) : setup_postdata($post); ?>
-    <div>
-   <?php the_post_thumbnail('medium');?>
-   <p><?php the_title(); ?></p>
-   <section>
-   <a href="<?php echo get_permalink();?>"><button>Read More</button></a>
-   </section>
-   </div>
-   <?php endforeach; ?>
-   <section>
-   <a href="<?php echo get_home_url() . '/adventures/';?>"><button>More adventures</button></a>
-   </section>
-
-
-
-
-
-
-
-
-
-
-
     <!-- END OF BLOG POSTS -->
 
 <?php else : ?>
         <p>No posts found</p>
 <?php endif;?>
+</div>
 
-    </section> 
+   
 <?php get_footer();?>
+
+
+
+
+

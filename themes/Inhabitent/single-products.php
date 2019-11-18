@@ -29,6 +29,10 @@
     <?php the_content(); ?>
     </div>
 
+    <a href="www.facebook.com"><i class="fab fa-facebook-f"> </i>  LIKE</i></a>
+    <a href="www.twitter.com"><i class="fab fa-twitter"> </i>  TWEET</a>
+    <a href="www.pintrest.com"><i class="fab fa-pinterest"> </i>  PIN</a>
+
     </section>
    
     

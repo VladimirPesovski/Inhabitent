@@ -3,7 +3,7 @@
 <section class="about">
 
 
-<!-- <img class="woods" src="<?php echo get_stylesheet_directory_uri();?>\images\about-hero.jpg" width="100%"> -->
+
 <?php if( have_posts() ) :
 //The WordPress Loop: loads post content 
     while( have_posts() ) :

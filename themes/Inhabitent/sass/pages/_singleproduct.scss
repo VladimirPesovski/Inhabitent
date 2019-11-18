@@ -1,7 +1,7 @@
 .single-product {
     display: grid;
     grid-template-columns: 0.8fr 1fr;
-    grid-template-rows: 1fr 0.5fr;
+    grid-template-rows: 1fr 0.2fr;
     grid-template-areas:
     "single-image single-text "
     "sing;e-image single-text";
@@ -41,6 +41,16 @@
         font-family: 'merriweather light';
         font-size: 14px;
         margin-right: 70px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        padding: 10px 20px;
+        background: white;
+        border: 1px solid #404040;
+        text-decoration: none;
+        color: #404040;
+        
     }
 
     

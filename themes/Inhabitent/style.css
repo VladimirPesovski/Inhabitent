@@ -123,6 +123,21 @@ table {
   margin-left: 70px;
   margin-top: 5px; }
 
+.header-logo-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 50px;
+  margin-left: 70px;
+  margin-top: 5px; }
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -189,14 +204,18 @@ footer {
   .contactinfo span.title {
     color: #d99054;
     font-family: 'Novecento Sansbold';
-    text-transform: uppercase;
-    font-size: 1.1em; }
+    text-transform: uppercase; }
+  .contactinfo p {
+    padding-bottom: 15px; }
   .contactinfo .phonenumber {
-    padding-left: 5px; }
+    padding-left: 10px;
+    padding-bottom: 10px; }
   .contactinfo .email {
-    padding-left: 5px; }
+    padding-left: 10px;
+    padding-bottom: 30px; }
   .contactinfo i {
-    padding-right: 5px; }
+    padding-right: 10px;
+    padding-bottom: 5px; }
 
 .hours {
   margin-top: 50px;
@@ -226,7 +245,8 @@ footer {
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 5;
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
 
 .contact {
   margin: 50px 0px 0px 40px;
@@ -303,9 +323,10 @@ body {
   line-height: 1.75; }
   body h1 {
     text-align: center;
+    font-family: 'novecento sansbold';
     text-transform: uppercase;
     font-size: 2em;
-    margin-top: 100px;
+    margin-top: 50px;
     letter-spacing: 0.1em; }
   body h2 {
     text-align: center;
@@ -351,24 +372,37 @@ body {
 
 .journal {
   display: grid;
-  margin: 50px 50px 100px 50px;
+  margin: 50px 70px 5px 70px;
   grid-template-columns: 1fr 1fr 1fr;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
-  height: 400px; }
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+  height: 350px; }
   .journal img {
     width: 100%;
-    height: auto; }
-  .journal .journal-date {
-    font-family: 'Merriweather light';
+    height: 200px; }
+  .journal section {
+    border-top: 5px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1; }
+  .journal .date {
+    font-family: 'merriweather light';
+    font-size: 0.6em;
+    padding: 10px 0px 0px 10px; }
+  .journal .title {
+    font-family: 'novecento sansbold';
+    font-size: 1.4em;
+    text-transform: uppercase;
     color: #248A83;
-    margin-bottom: 5px; }
-  .journal .read-more {
-    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5; }
+  .journal .read-entry {
+    margin: 0px 0 10px 10px;
     width: 100px;
-    height: 30px;
-    border: 1px solid;
+    height: 34px;
+    border: 1px solid #404040;
     background: none; }
 
 .adventures {
@@ -431,6 +465,12 @@ body {
     font-size: 2em;
     color: black; }
 
+.shop-nav {
+  height: 67px; }
+
+.solid {
+  border: 1px solid #e1e1e1; }
+
 .dashed {
   border: 1px dashed #c8c8c8;
   margin: 50px; }
@@ -445,6 +485,7 @@ body {
   border-radius: 1px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
   background-color: white; }
   .products button {
     font-family: 'Merriweather light';
@@ -477,16 +518,19 @@ body {
       justify-content: space-around;
   margin-left: 500px;
   margin-right: 500px;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-top: 10px;
+  margin-bottom: 20px; }
   .categories li {
     padding: 10px;
     font-size: 1em;
-    color: #248A83;
     text-transform: uppercase; }
+    .categories li a {
+      text-decoration: none;
+      color: #248A83; }
 
 h2 {
-  margin-top: 50px; }
+  margin-top: 30px;
+  font-family: "novecento sansbold"; }
 
 .main {
   display: grid;
@@ -595,7 +639,7 @@ form {
 .single-product {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
-  grid-template-rows: 1fr 0.5fr;
+  grid-template-rows: 1fr 0.2fr;
   grid-template-areas: "single-image single-text " "sing;e-image single-text";
   -webkit-column-gap: 40px;
      -moz-column-gap: 40px;
@@ -624,7 +668,14 @@ form {
   .single-product .single-content {
     font-family: 'merriweather light';
     font-size: 14px;
-    margin-right: 70px; }
+    margin-right: 70px;
+    margin-bottom: 20px; }
+  .single-product a {
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid #404040;
+    text-decoration: none;
+    color: #404040; }
 
 .single-post-page {
   display: grid;
@@ -638,6 +689,10 @@ form {
   position: relative;
   padding: 40px 50px 40px 80px;
   border-right: 2px solid #e1e1e1; }
+  .singlepost .attachment-large.size-large.wp-post-image {
+    width: 100%;
+    height: 70%;
+    margin-right: 40px; }
   .singlepost h2 {
     font-family: 'novecento sansbold';
     position: absolute;
@@ -648,10 +703,14 @@ form {
     padding: 10px 10px 10px 20px;
     color: white;
     width: 450px; }
-  .singlepost .attachment-large.size-large.wp-post-image {
-    width: 100%;
-    height: 70%;
-    margin-right: 40px; }
+  .singlepost .wrap p {
+    position: absolute;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    color: white;
+    background-color: #248A83;
+    margin-top: -60px; }
 
 .side {
   grid-column-start: 2; }
@@ -682,13 +741,18 @@ form {
   margin-bottom: 20px;
   height: 50px; }
 
+.page-title {
+  margin-top: 30px;
+  font-family: 'novecento sansbold'; }
+
 .dashed {
   border: 1px dashed #e1e1e1;
   margin: 10px 50px 50px 50px; }
 
 .product-type-description p {
   font-family: 'merriweather light';
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
 
 .product-types {
   display: grid;
@@ -700,6 +764,7 @@ form {
   border-radius: 1px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
   background-color: white; }
   .product-types button {
     font-family: 'Merriweather light';

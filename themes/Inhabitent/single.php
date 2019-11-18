@@ -13,7 +13,12 @@
 
     
     <h2><?php the_title(); ?></h2>
+    <div class="wrap" >
     <?php the_post_thumbnail('large');?>
+    <p class="date">
+      <?php the_date(); ?></p>
+    </div>
+
     <?php the_content(); ?>
 </div>
     <!-- Loop ends -->
