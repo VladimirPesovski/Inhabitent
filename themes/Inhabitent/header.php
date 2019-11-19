@@ -11,7 +11,7 @@
 
 <div class="nav">
 <a href="<?php echo get_home_url(); ?>"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>\images\logos\inhabitent-logo-tent.svg" alt="site logo"/></a>
-<a href="<?php echo get_home_url(); ?>"><img class="header-logo-2" src="<?php echo get_stylesheet_directory_uri(); ?>\images\logos\inhabitent-logo-tent-white.svg" alt="site logo"/></a>
+<!-- <a href="<?php echo get_home_url(); ?>"><img class="header-logo-2" src="<?php echo get_stylesheet_directory_uri(); ?>\images\logos\inhabitent-logo-tent-white.svg" alt="site logo"/></a> -->
 
 
 <section class="search">
@@ -23,4 +23,4 @@
 
 </div>
 
-<!-- <h1><?php bloginfo('name');?></h1> -->
+

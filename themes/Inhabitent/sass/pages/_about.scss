@@ -14,6 +14,7 @@
         color: white;  
     }
     .attachment-medium.size-medium.wp-post-image {
+        
         filter:brightness(50%);
         width: 100%;
         height: 100%;
@@ -26,7 +27,7 @@
 .text-content {
     font-family: 'Merriweather light';
     font-size: 1em;
-    // display: grid;
+    
     margin-top: 50px;
     margin-left: 175px;
     margin-right: 175px;

@@ -289,9 +289,6 @@ footer {
 #categories-3 {
   display: none; }
 
-#search-3 {
-  display: none; }
-
 .front {
   width: 100%;
   height: 600px; }
@@ -791,49 +788,49 @@ form {
 .broken-page {
   display: grid;
   grid-template-columns: 3fr 1.2fr;
+  grid-template-rows: 1fr 3fr;
   border-top: 2px solid #e1e1e1; }
-
-#search-3 {
-  display: inline; }
-  #search-3 .proinput {
-    background-color: #e1e1e1; }
-
-.broken-page-title p {
-  margin: 50px;
-  font-family: 'merriweather light'; }
-
-.recent-posts {
-  margin: 0px 0px 0px 50px; }
-  .recent-posts .contact {
-    display: none; }
-  .recent-posts #recent-posts-4 {
-    display: inline;
-    font-family: 'merriweather light'; }
-    .recent-posts #recent-posts-4 a {
-      text-decoration: none;
-      color: #248A83; }
-    .recent-posts #recent-posts-4 .widgettitle {
-      font-family: 'novecento sans';
-      text-align: left; }
-  .recent-posts #categories-3 {
+  .broken-page #search-3.widget.widget_search {
     display: inline; }
-    .recent-posts #categories-3 h2 {
-      text-align: left;
-      font-family: 'novecento sans'; }
-    .recent-posts #categories-3 li a {
-      font-family: 'merriweather light';
-      text-decoration: none;
-      color: #248A83; }
-
-.archives {
-  margin: 0px 0px 50px 50px; }
-  .archives .widgettitle {
-    font-family: 'novecento sans';
-    text-align: left; }
-  .archives p {
-    font-family: 'merriweather light'; }
-  .archives label {
-    display: none; }
-
-.sidebar {
-  border-left: 2px solid #e1e1e1; }
+  .broken-page .proinput {
+    background-color: #e1e1e1; }
+  .broken-page .broken-page-title {
+    border-right: 2px solid #e1e1e1; }
+    .broken-page .broken-page-title p {
+      margin: 50px;
+      font-family: 'merriweather light'; }
+  .broken-page .recent-posts {
+    margin: 0px 0px 0px 50px;
+    border-right: 2px solid #e1e1e1; }
+    .broken-page .recent-posts .contact {
+      display: none; }
+    .broken-page .recent-posts #recent-posts-4 {
+      display: inline;
+      font-family: 'merriweather light'; }
+      .broken-page .recent-posts #recent-posts-4 a {
+        text-decoration: none;
+        color: #248A83; }
+      .broken-page .recent-posts #recent-posts-4 .widgettitle {
+        font-family: 'novecento sans';
+        text-align: left; }
+    .broken-page .recent-posts #categories-3 {
+      display: inline; }
+      .broken-page .recent-posts #categories-3 h2 {
+        text-align: left;
+        font-family: 'novecento sans'; }
+      .broken-page .recent-posts #categories-3 li a {
+        font-family: 'merriweather light';
+        text-decoration: none;
+        color: #248A83; }
+    .broken-page .recent-posts .archives404 {
+      margin: 0px 0px 0px 0px; }
+      .broken-page .recent-posts .archives404 .widgettitle {
+        font-family: 'novecento sans';
+        text-align: left;
+        -webkit-box-align: left;
+            -ms-flex-align: left;
+                align-items: left; }
+      .broken-page .recent-posts .archives404 p {
+        font-family: 'merriweather light'; }
+      .broken-page .recent-posts .archives404 label {
+        display: none; }

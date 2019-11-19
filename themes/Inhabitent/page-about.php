@@ -1,37 +1,25 @@
+
 <?php get_header(); ?>
 
 <section class="about">
-
-
 
 <?php if( have_posts() ) :
 //The WordPress Loop: loads post content 
     while( have_posts() ) :
         the_post(); ?>
-    
     <div class="image">
     <h2><?php the_title(); ?></h2>
-    
     <?php the_post_thumbnail('medium');?>
-
-    
-    
-    <div class="text-content">
-        
+    <div class="text-content">   
     <?php the_content(); ?>
-  
     
     <!-- Loop ends -->
-    <?php endwhile;?>
-       
+    <?php endwhile;?> 
     <?php the_posts_navigation();?>
    
-
-<?php else : ?>
+    <?php else : ?>
         <p>No posts found</p>
-<?php endif;?>
-</div>
-
-</section>
-    
+    <?php endif;?>
+    </div>
+    </section>   
 <?php get_footer();?>

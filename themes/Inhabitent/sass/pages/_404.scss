@@ -2,86 +2,82 @@
 .broken-page {
     display: grid;
     grid-template-columns: 3fr 1.2fr;
+    grid-template-rows: 1fr 3fr;
     border-top: 2px solid #e1e1e1;
-}
-
-#search-3 {
-    display: inline;
-    .proinput {
-    background-color: #e1e1e1
-    }
-}
 
 
-
-
-.broken-page-title {
-  
-    p {
-        margin: 50px;
-        font-family: 'merriweather light';
-
+    #search-3.widget.widget_search {
+        display: inline;
     }
     
-}
+        .proinput {
+            background-color: #e1e1e1
+            }
+    
 
-.recent-posts {
+    .broken-page-title {
+        border-right: 2px solid #e1e1e1;
+            p {
+                margin: 50px;
+                font-family: 'merriweather light';
+            }
+    
+    }
 
-    margin: 0px 0px 0px 50px;
+    .recent-posts {
+        margin: 0px 0px 0px 50px;
+        border-right: 2px solid #e1e1e1;
    
-   .contact {
-       display: none;
-   }
-   #recent-posts-4 {
-       display: inline;
-       font-family: 'merriweather light';
+        .contact {
+            display: none;
+      
+        }
+        #recent-posts-4 {
+            display: inline;
+            font-family: 'merriweather light';
+       
 
-       a {
-       text-decoration: none;
-       color: #248A83;
-       }
-       .widgettitle {
-           font-family: 'novecento sans';
-           text-align: left;
-       }
-   }
-   #categories-3 {
-    display: inline;
-    h2 {
-    text-align: left;
-    font-family: 'novecento sans';
-    }
-    li a{
-        font-family: 'merriweather light';
-        text-decoration: none;
-        color: #248A83;
-    }
-}
+            a {
+                text-decoration: none;
+                color: #248A83;
+       
+            }
+            .widgettitle {
+                font-family: 'novecento sans';
+                text-align: left;
+            }
+        }
+        #categories-3 {
+            display: inline;
+                h2 {
+                text-align: left;
+                font-family: 'novecento sans';
+                }
+                li a{
+                font-family: 'merriweather light';
+                text-decoration: none;
+                color: #248A83;
+                }
+        }
+        .archives404 {
     
-    
-}
+            margin: 0px 0px 0px 0px;
+            .widgettitle {
+                font-family: 'novecento sans';
+                text-align: left;
+                align-items: left;
+            }
+            p {
+                font-family: 'merriweather light';
+            }
+            label {
+                display: none;
+            }
+
+        }
 
 
-
-.archives {
-    
-    margin: 0px 0px 50px 50px;
-    
-    .widgettitle {
-        font-family: 'novecento sans';
-        text-align: left;
-    }
-    p {
-        font-family: 'merriweather light';
-    }
-    label {
-        display: none;
-    }
+    }   
 
 }
-
-.sidebar {
-    border-left: 2px solid #e1e1e1;
-}
-
 
