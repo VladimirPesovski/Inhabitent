@@ -2,15 +2,19 @@ Inhabitent
 
 A website based on WordPress CMS using a combination of PHP, JavaScript, jQuery, Sass and HTML/CSS. The website includes multiple pages based on the WordPress heirarchy and consists of a combination of journal posts and product content. This was a 2 weeks long project built as part of RED Academy's web development program in Toronto. This project served as an introduction to custom WordPress theming without using Word Press themes.
 
+
 Instalation
+
     Download the project
     Add to your wp-content/themes directory.
     Install the dependencies
     Run npm install to install the npm packages for Gulp.
 
+
 Media Query
-Device: Desktop
-Width: 1120px
+
+    Device: Desktop
+    Width: 1120px
 
 
 Personal Learnings
